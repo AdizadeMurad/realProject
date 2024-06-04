@@ -1,0 +1,26 @@
+.section-home-top{
+    background-image: url('https://alovservisimages.netlify.app/img/heating-central-gas-furnace-AFRW6SQ-copy%20(1).jpg');
+    background-size: cover;
+    min-height: 650px;
+}
+.home-aboutus-img{
+    max-width: 500px;
+}
+.home-card{
+    max-width: 320px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(238,249,255);
+}
+.home-cards{
+    display: grid;
+    padding: 60px;
+    gap: 50px;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
