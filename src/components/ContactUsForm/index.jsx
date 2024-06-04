@@ -5,6 +5,8 @@ import {FaLocationDot} from "react-icons/fa6";
 
 function ContactUsForm() {
     return (
+       <>
+       <section className='section-contactus-img'></section>
         <section id={"contactUsForm"}>
             <div className={"container"}>
                 <div className={"titles"}>
@@ -70,6 +72,7 @@ function ContactUsForm() {
                 </div>
             </div>
         </section>
+       </>
     );
 }
 
