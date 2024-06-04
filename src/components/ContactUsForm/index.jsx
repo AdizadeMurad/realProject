@@ -25,14 +25,14 @@ function ContactUsForm() {
                             <IoIosMail/>
                         </div>
                         <h4>Gmail vasitəsilə əlaqə üçün.</h4>
-                        <a href={"tel:+9940556008483"}>055-600-84-83</a>
+                        <a href={"mailto:info@alovservis.az"}>info@alovservis.az</a>
                     </div>
                     <div className={"col-4 col-md-4 col-sm-12 col-xs-12"}>
                         <div className={"square"}>
                             <FaLocationDot/>
                         </div>
                         <h4>Servisimizin məkan ünvanı.</h4>
-                        <a href={"tel:+9940556008483"}>055-600-84-83</a>
+                        <a>Bakı,Xırdalan</a>
                     </div>
                 </div>
                 <div className={"row"}>

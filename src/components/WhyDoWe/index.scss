@@ -1,0 +1,49 @@
+#whyDoWe {
+  padding: 100px 0;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .titles {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+      font-size: 20px;
+      font-weight: 800;
+      margin: 0 0 8px;
+      color: #06A3DA;
+    }
+
+    h3 {
+      font-size: 40px;
+      font-weight: 800;
+
+    }
+  }
+
+  .square {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: #06A3DA;
+  }
+
+  h4 {
+    font-size: 24px;
+    margin: 16px 0 8px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #6B6A75;
+  }
+}

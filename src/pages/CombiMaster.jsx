@@ -1,11 +1,12 @@
 import React from 'react'
+import WhyDoWe from "../components/WhyDoWe/index.jsx";
 
 function CombiMaster() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <>
+            <WhyDoWe/>
+        </>
+    )
 }
 
 export default CombiMaster

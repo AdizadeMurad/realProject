@@ -1,11 +1,12 @@
 import React from 'react'
+import CombiBoards from "../components/CombiBoards/index.jsx";
 
 function CombiBrains() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <>
+            <CombiBoards/>
+        </>
+    )
 }
 
 export default CombiBrains
