@@ -1,11 +1,12 @@
 import React from 'react'
+import ContactUsForm from "../components/ContactUsForm/index.jsx";
 
 function ContactUs() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <>
+            <ContactUsForm/>
+        </>
+    )
 }
 
 export default ContactUs
