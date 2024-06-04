@@ -5,16 +5,16 @@ function Home() {
     return (
         <>
             <section className="section-home-top">
-                <div>
+                <div className="section-home-top-general">
                     <div>
-                        <p>ALOV & SERVIS</p>
+                        <p className="alovservishead">ALOV & SERVIS</p>
                     </div>
-                    <div>
-                        <p>Kombilərin təmiri və yuyulması</p>
+                    <div className="">
+                        <p className="alovservistext">Kombilərin təmiri və yuyulması</p>
                     </div>
-                    <div>
-                        <button>Kombi ustası</button>
-                        <button>Bizimlə əlaqə</button>
+                    <div className="section-home-top-btn">
+                        <button className="kombiustasi-btn">Kombi ustası</button>
+                        <button className="bizimleelaqe-btn">Bizimlə əlaqə</button>
                     </div>
                 </div>
             </section>

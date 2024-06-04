@@ -76,3 +76,10 @@
     padding: 8px;
   }
 }
+
+.section-contactus-img{
+  position: relative;
+  background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url('https://alovservisimages.netlify.app/img/header_contact.jpg') center center no-repeat;
+    background-size: cover;
+    min-height: 29rem;
+}
