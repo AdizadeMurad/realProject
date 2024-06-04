@@ -1,6 +1,8 @@
 nav{
     width: 100%;
     background-color: red;
+    display: flex;
+    justify-content: center;
     ul{
         li{
             color: white;
@@ -8,10 +10,18 @@ nav{
     }
 }
 .navbar-general{
+    max-width: 1220px;
+    width: 100%;
     display: flex;
-    padding: 40px;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
 }
 .navbar-items{
     display: flex;
     gap: 30px;
+}
+.navbar-logo{
+    max-width: 240px;
+    width: 100%;
 }

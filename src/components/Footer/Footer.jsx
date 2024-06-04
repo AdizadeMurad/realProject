@@ -9,7 +9,10 @@ function Footer() {
           <div className="footer-top">
             <div className="footer-col-1">
               <div>
-                <img src="https://alovservisimages.netlify.app/img/footer-img-logo-removebg-preview.png" alt="" />
+                <img
+                  src="https://alovservisimages.netlify.app/img/footer-img-logo-removebg-preview.png"
+                  alt=""
+                />
               </div>
               <div>
                 <p>
@@ -19,12 +22,11 @@ function Footer() {
                   qarşılaşdıqlarında sürətli bir şəkildə problemi həll
                   edib,müştəri məmnuniyyəti qazanmaqdır.
                 </p>
-                
               </div>
               <div>
-                  <p>Əlaqə nömrəsi:</p>
-                  <a href="">055-600-84-83</a>
-                </div>
+                <p  className="footer-bottom-number-head">Əlaqə nömrəsi:</p>
+                <Link className="footer-bottom-number" href="">055-600-84-83</Link>
+              </div>
             </div>
 
             <div className="footer-col-2">
@@ -32,16 +34,43 @@ function Footer() {
                 <p className="footer-heads">Birbaşa Əlaqə</p>
               </div>
               <div className="footer-col-2-items">
-             <div>
-             <i class="fa-solid fa-location-dot"></i><p>Xirdalan şəhəri,<br />Mehdi Hüseynzadə küçəsi №26</p>
-             </div>
-                <p><i class="fa-solid fa-envelope-open"></i> info@alovservis.az</p>
-                <a><i class="fa-solid fa-phone"></i> 055-600-84-83</a>
+                <div className="footer-col-2-contact-items">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>
+                    Xirdalan şəhəri,
+                    <br />
+                    Mehdi Hüseynzadə küçəsi №26
+                  </p>
+                </div>
+                <p>
+                  <i class="fa-solid fa-envelope-open"></i> info@alovservis.az
+                </p>
+                <p>
+                  <i class="fa-solid fa-phone"></i> 055-600-84-83
+                </p>
               </div>
-              <div>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-instagram"></i>
+              <div className="footer-logo">
+               <Link> <div className="footer-logo-back">
+                  
+                    <i class="fa-brands fa-facebook"></i>
+                  
+                </div></Link>
+                  <Link> <div className="footer-logo-back">
+               
+                    {" "}
+                    <i class="fa-brands fa-instagram"></i>
+                  
+                </div></Link>
+                <Link> <div className="footer-logo-back">
+                 
+                    <i class="fa-brands fa-twitter"></i>
+                  
+                </div></Link>
+               <Link> <div className="footer-logo-back">
+                  
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  
+                </div></Link>
               </div>
             </div>
             <div className="footer-col-3">
@@ -49,16 +78,29 @@ function Footer() {
                 <p className="footer-heads">Sürətli Keçid</p>
               </div>
               <div className="footer-items">
-                <Link>Ana səhifə</Link>
-                <Link>Kombi ustası</Link>
-                <Link>Kombi plataları</Link>
-                <Link>Ehtiyat hissələrin satışı</Link>
-                <Link>Bizimlə əlaqə</Link>
+                <Link to={'/'}>
+                  <i class="fa-solid fa-arrow-right-long"></i> Ana səhifə
+                </Link>
+                <Link  to={'/combimaster'}>
+                  <i class="fa-solid fa-arrow-right-long"></i> Kombi ustası
+                </Link>
+                <Link  to={'/combibrains'}>
+                  <i class="fa-solid fa-arrow-right-long"></i> Kombi plataları
+                </Link>
+                <Link  to={'/salesofparts'}>
+                  <i class="fa-solid fa-arrow-right-long"></i> Ehtiyat
+                  hissələrin satışı
+                </Link>
+                <Link  to={'/contactus'}>
+                  <i class="fa-solid fa-arrow-right-long"></i> Bizimlə əlaqə
+                </Link>
               </div>
             </div>
           </div>
           <div className="footer-bottom">
-         <p>©</p><Link to={'/'}>Alov Servis</Link><p>2024</p>
+            <p>©</p>
+            <Link to={"/"}>Alov Servis</Link>
+            <p>2024</p>
           </div>
         </div>
       </footer>

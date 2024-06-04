@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav>
         <div className="navbar-general">
-          <div className="navbar-logo"></div>
+          <div className="navbar-logo"><img className="navbar-logo-img" src="https://alovservisimages.netlify.app/img/whitelogo.png" alt="" /></div>
           <ul className="navbar-items">
             <Link to={'/'}>
               <li>Ana səhifə</li>
