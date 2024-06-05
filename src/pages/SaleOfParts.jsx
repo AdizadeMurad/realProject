@@ -1,11 +1,12 @@
 import React from 'react'
+import CombiDetalsWrapper from "../components/CombiDetalsWrapper/index.jsx";
 
 function SaleOfParts() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <>
+            <CombiDetalsWrapper/>
+        </>
+    )
 }
 
 export default SaleOfParts
