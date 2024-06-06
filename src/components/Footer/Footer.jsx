@@ -10,7 +10,7 @@ function Footer() {
             <div className="footer-col-1">
               <div>
                 <img
-                  src="https://alovservisimages.netlify.app/img/footer-img-logo-removebg-preview.png"
+                  src="https://alovservisimages.netlify.app/img/whitelogo.png"
                   alt=""
                 />
               </div>

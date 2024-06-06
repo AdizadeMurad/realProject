@@ -36,7 +36,7 @@ function CombiBoards() {
                              alt={"Image"}/>
                         <img src={"https://alovservisimages.netlify.app/img/kombi%20servisi.jpg"}
                              alt={"Image"}/>
-                        <img src={"https://alovservisimages.netlify.app/img/kombi-beyin-tamiri-595x446.jpg.webp"}
+                        <img src={"https://alovservisimages.netlify.app/img/kenarlik.jpg"}
                              alt={"Image"}/>
                     </div>
                 </div>

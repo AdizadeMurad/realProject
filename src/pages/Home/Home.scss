@@ -21,15 +21,16 @@
 }
 
 .kombiustasi-btn {
-   background-color: #06A3DA;
+    background-color: #06A3DA;
 
-   font-weight: 600;
-   font-size: 16px;
-   border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-style: none;
     max-width: 200px;
     width: 100%;
-    a{
-color: white;
+
+    a {
+        color: white;
     }
 }
 
@@ -39,7 +40,8 @@ color: white;
     border-style: none;
     max-width: 200px;
     width: 100%;
-    a{
+
+    a {
         color: black;
     }
 }
@@ -69,6 +71,7 @@ color: white;
 
 .home-aboutus-img {
     max-width: 500px;
+    width: 100%;
 }
 
 .home-card {
@@ -88,71 +91,131 @@ color: white;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+
 @media only screen and (max-width: 991px) {
     .home-cards {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
-  }
-  @media only screen and (max-width: 991px) {
-    .home-cards {
-        grid-template-columns: 1fr ;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .alovservistext {
+        font-size: 4rem;
     }
-  }
-  .section-home-about{
+}
+
+@media only screen and (max-width: 768px) {
+    .section-home-top-btn{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .alovservistext {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .home-cards {
+        grid-template-columns: 1fr;
+    }
+    .home-aboutus-img {
+        padding: 10px;
+        max-width: 800px;
+        width: 100%;
+    }
+}
+
+.section-home-about {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .home-about-top{
+}
+
+.home-about-top {
     font-size: 20px;
     font-weight: 800;
     color: #06A3DA;
-  }
-  .home-about-head{
+}
+
+.home-about-head {
     font-size: 40px;
     font-weight: 800;
     color: #000000;
-  }
-  .section-home-about{
+}
+
+.section-home-about {
     padding: 50px;
-      display: grid;
-  place-content: center;
-  place-items: center;
-  grid-template-columns: 1fr 1fr;
-  }
-.home-services-general{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width: 991px) {
+    .section-home-about {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+}
+
+
+
+
+.home-services-general {
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.services-items-opinion{
+
+.services-items-opinion-col-2 {
     display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.services-items-opinion {
+display: grid;
+grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
     gap: 100px;
-    p{
+
+    p {
         font-weight: 600;
         font-size: 20px;
     }
 }
-.home-card-head{
+
+.home-card-head {
     font-size: 24px;
     font-weight: 700;
 }
-.home-card-text{
+
+.home-card-text {
     font-size: 17px;
     font-weight: 500;
     color: rgb(97, 97, 97);
 }
-.home-card-tel-head{
+
+.home-card-tel-head {
     font-size: 24px;
     font-weight: 700;
     color: rgb(255, 255, 255);
 }
 
-.home-card-tel{
+.home-card-tel {
     max-width: 350px;
     width: 100%;
     text-align: center;
@@ -160,11 +223,40 @@ color: white;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    background-color:#06A3DA;
+    background-color: #06A3DA;
 }
-.services-staff{
+
+.services-staff {
     max-width: 500px;
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+}
+.services-items-opinion-col-3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.callmenow{
+    max-width: 230px;
+    width: 100%;
+    background-color: #06A3DA;
+    border-style: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    a{
+        color: white;
+    }
+}
+.callmenownumber{
+    font-size: 25px;
+    font-weight: 700;
+    color: #06A3DA;
+}
+.callmenowtext{
+    font-size: 20px;
+    font-weight: 600;
+
 }

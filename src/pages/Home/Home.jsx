@@ -33,24 +33,24 @@ function Home() {
                 hissələrimizlə xidmətinizdəyik.
               </p>
               <div className="services-items-opinion">
-                <div>
+                <div className="services-items-opinion-col-2"> 
                   {" "}
                   <p>15 ilə yaxın təcrübə</p>
                   <p>Professional işçi heyəti</p>
                 </div>
-                <div>
+                <div className="services-items-opinion-col-2">
                   <p>Zəmanətli işlər</p>
                   <p>Sərfəli və ucuz qiymət</p>
                 </div>
               </div>
 
-              <div>
+              <div className="services-items-opinion-col-3">
                 <div>
-                  <p>Hər hansı sualınız varsa zəng edin</p>
-                  <a href="">055-600-84-83</a>
+                  <p className="callmenowtext">Hər hansı sualınız varsa zəng edin</p>
+                  <Link className="callmenownumber">055-600-84-83</Link>
                 </div>
                 <div>
-                  <button>Elə indi zəng edin.</button>
+                  <button className="callmenow"><Link to={'/contactus'}>Elə indi zəng edin.</Link></button>
                 </div>
               </div>
             </div>
