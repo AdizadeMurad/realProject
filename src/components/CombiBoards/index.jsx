@@ -2,6 +2,14 @@ import './index.scss'
 
 function CombiBoards() {
     return (
+       <>
+        <section className='section-combibrains-img'>
+        <div className="section-combibrains-head">
+            <p className="section-combibrains-text">
+            Kombi plataları
+            </p>
+        </div>
+        </section>
         <section id={"combiBoards"}>
             <div className={"container"}>
                 <div className={"row"}>
@@ -34,6 +42,7 @@ function CombiBoards() {
                 </div>
             </div>
         </section>
+       </>
     );
 }
 

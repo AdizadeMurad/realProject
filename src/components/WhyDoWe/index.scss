@@ -47,3 +47,18 @@
     color: #6B6A75;
   }
 }
+.section-combimaster-img {
+  position: relative;
+  background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url('https://alovservisimages.netlify.app/img/1666610045282076356737da6e6d.jpg') center center no-repeat;
+  background-size: cover;
+  min-height: 29rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-combimaster-text{
+font-size: 3.5rem;
+font-weight: bold;
+color: white;
+margin-top: 90px;
+}

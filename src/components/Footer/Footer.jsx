@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <footer className="">
+      <footer className="footer">
         <div className="footer-general">
-          <div className="footer-top">
+          <div className="footer-top container">
             <div className="footer-col-1">
               <div>
                 <img
@@ -29,7 +29,8 @@ function Footer() {
               </div>
             </div>
 
-            <div className="footer-col-2">
+          <div className="footer-col2-col3">
+          <div className="footer-col-2">
               <div>
                 <p className="footer-heads">Birbaşa Əlaqə</p>
               </div>
@@ -96,6 +97,7 @@ function Footer() {
                 </Link>
               </div>
             </div>
+          </div>
           </div>
           <div className="footer-bottom">
             <p>©</p>

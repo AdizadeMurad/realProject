@@ -6,7 +6,13 @@ import {FaLocationDot} from "react-icons/fa6";
 function ContactUsForm() {
     return (
        <>
-       <section className='section-contactus-img'></section>
+       <section className='section-contactus-img'>
+       <div className="section-contactus-head">
+            <p className="section-contactus-text">
+            Bizimlə Əlaqə
+            </p>
+        </div>
+       </section>
         <section id={"contactUsForm"}>
             <div className={"container"}>
                 <div className={"titles"}>

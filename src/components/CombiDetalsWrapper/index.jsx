@@ -36,6 +36,14 @@ function CombiDetalsWrapper() {
         imgUrl: 'https://alovservisimages.netlify.app/img/balon.jpg'
     }];
     return (
+       <>
+        <section className='section-detals-img'>
+        <div className="section-detals-head">
+            <p className="section-detals-text">
+            Ehtiyat hissələr
+            </p>
+        </div>
+        </section>
         <section id={"combiDetalsWrapper"}>
             <div className={"container"}>
                 <div className={"row"} style={{justifyContent: "center"}}>
@@ -61,6 +69,7 @@ function CombiDetalsWrapper() {
                 </div>
             </div>
         </section>
+       </>
     );
 }
 

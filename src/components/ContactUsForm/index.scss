@@ -82,4 +82,13 @@
   background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url('https://alovservisimages.netlify.app/img/header_contact.jpg') center center no-repeat;
     background-size: cover;
     min-height: 29rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.section-contactus-text{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 90px;
+  }

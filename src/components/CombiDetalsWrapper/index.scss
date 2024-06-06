@@ -1,5 +1,5 @@
 #combiDetalsWrapper {
-  padding: 300px 0;
+  padding: 100px 0;
 
   .card {
     img {
@@ -52,3 +52,18 @@
     }
   }
 }
+.section-detals-img{
+  position: relative;
+  background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url('	https://alovservisimages.netlify.app/img/fotoehtiyyat.webp') center center no-repeat;
+    background-size: cover;
+    min-height: 29rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-detals-text{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 90px;
+  }
