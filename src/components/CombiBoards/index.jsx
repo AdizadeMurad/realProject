@@ -2,6 +2,14 @@ import './index.scss'
 
 function CombiBoards() {
     return (
+       <>
+        <section className='section-combibrains-img'>
+        <div className="section-combibrains-head">
+            <p className="section-combibrains-text">
+            Kombi plataları
+            </p>
+        </div>
+        </section>
         <section id={"combiBoards"}>
             <div className={"container"}>
                 <div className={"row"}>
@@ -28,12 +36,13 @@ function CombiBoards() {
                              alt={"Image"}/>
                         <img src={"https://alovservisimages.netlify.app/img/kombi%20servisi.jpg"}
                              alt={"Image"}/>
-                        <img src={"https://alovservisimages.netlify.app/img/kombi-beyin-tamiri-595x446.jpg.webp"}
+                        <img src={"https://alovservisimages.netlify.app/img/kenarlik.jpg"}
                              alt={"Image"}/>
                     </div>
                 </div>
             </div>
         </section>
+       </>
     );
 }
 

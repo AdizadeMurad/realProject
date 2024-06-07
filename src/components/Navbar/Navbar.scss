@@ -21,9 +21,21 @@ nav{
 }
 .navbar-items{
     display: flex;
-    gap: 30px;
+    gap: 25px;
+    li{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    li:hover{
+        color: rgb(188, 188, 188);
+    }
 }
 .navbar-logo{
     max-width: 240px;
     width: 100%;
 }
+@media only screen and (max-width: 991px) {
+  .navbar-general{
+    display: none;
+  }
+  }

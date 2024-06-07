@@ -23,6 +23,13 @@ function Navbar() {
             <Link to={'contactus'}>
               <li>Bizimlə Əlaqə</li>
             </Link>
+
+            <select name="language">
+                <option value="Az">Az</option>
+                <option value="Tr">Tr</option>
+                <option value="Ru">Ru</option>
+                <option value="Eng">Eng</option>
+              </select>
           </ul>
         </div>
       </nav>
