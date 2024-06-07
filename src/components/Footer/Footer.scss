@@ -31,6 +31,8 @@
 }
 
 .footer-col-3 {
+    max-width: 250px;
+  width: 100%;
 
     display: flex;
     gap: 25px;
@@ -52,6 +54,9 @@
 
 .footer-col-2 {
     display: flex;
+    max-width: 250px;
+
+    width: 100%;
     gap: 25px;
     flex-direction: column;
 
@@ -164,16 +169,12 @@
 @media only screen and (max-width: 991px) {
     .footer-col2-col3 {
         display: grid;
-    
+        place-items: center;
+        place-content: center;
         grid-template-columns: 1fr;
     }
 }
-@media only screen and (max-width: 991px) {
-    .footer-col2-col3 {
-        display: grid;
-    place-items: center;
-    }
-}
+
 
 @media only screen and (max-width: 768px) {
     .footer-top {

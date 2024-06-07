@@ -57,8 +57,22 @@
   justify-content: center;
 }
 .section-combimaster-text{
-font-size: 3.5rem;
+font-size: 3.6rem;
 font-weight: bold;
 color: white;
-margin-top: 90px;
+margin-top: 90px; 
+ text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .section-combimaster-text{
+    font-size: 3rem;
+  
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-combimaster-text{
+    font-size: 2.7rem;
+    }
 }

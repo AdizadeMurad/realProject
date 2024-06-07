@@ -58,10 +58,7 @@ function CombiDetalsWrapper() {
                                     </h2>
                                     <h3>{elem.title}</h3>
                                     <h4>Bu tip ehtiyyat hissəsini servisimizə yaxınlaşıb əldə edə bilərsiniz.</h4>
-                                    <Link to={'/'} className={"details"}>
-                                        Ətraflı məlumat üçün
-                                        <FaArrowRightLong/>
-                                    </Link>
+                                   
                                 </div>
                             </div>
                         </div>

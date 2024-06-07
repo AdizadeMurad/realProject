@@ -62,8 +62,21 @@
     justify-content: center;
 }
 .section-detals-text{
-  font-size: 3.5rem;
+  font-size: 3.6rem;
   font-weight: bold;
   color: white;
   margin-top: 90px;
+  }
+
+
+  @media only screen and (max-width: 991px) {
+    .section-detals-text{
+      font-size: 3rem;
+      }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .section-detals-text{
+      font-size: 2.7rem;
+      }
   }
