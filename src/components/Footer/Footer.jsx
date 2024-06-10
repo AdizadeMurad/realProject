@@ -14,8 +14,8 @@ function Footer() {
     const { t } = useTranslation();
     return (
         <>
-            <footer className="">
-                <div className="footer-general">
+            <footer className="" style={{backgroundColor: '#091E3E'}}>
+                <div className="container footer-general">
                     <div className="footer-top">
                         <div className="footer-col-1">
                             <div>
@@ -26,7 +26,7 @@ function Footer() {
                             </div>
                             <div>
                                 <p>
-                                {t('footer_about')}
+                                    {t('footer_about')}
                                 </p>
                             </div>
                             <div>
@@ -44,7 +44,7 @@ function Footer() {
                                     <p style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
                                         <FaLocationDot/>
 
-                                     {t('location')}
+                                        {t('location')}
                                     </p>
                                 </div>
                                 <p style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
@@ -108,13 +108,13 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="footer-bottom">
-                        <p>©</p>
-                        <Link to={"/"}>Alov {t('service')}</Link>
-                        <p>2024</p>
-                    </div>
                 </div>
             </footer>
+            <div className="footer-bottom">
+                <p>©</p>
+                <Link to={"/"}>Alov {t('service')}</Link>
+                <p>2024</p>
+            </div>
         </>
     )
 }
