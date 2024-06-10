@@ -1,10 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import './Navbar.scss'
-import {FaBars} from "react-icons/fa";
 import NavbarBurger from "../NavbarBurger/index.jsx";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
+    const { t } = useTranslation();
     return (
         <>
             <nav>
@@ -15,26 +16,25 @@ function Navbar() {
                     <NavbarBurger/>
                     <ul className="navbar-items">
                         <Link to={'/'}>
-                            <li>Ana səhifə</li>
+                            <li>{t('homepage')}</li>
                         </Link>
                         <Link to={'/combimaster'}>
-                            <li>Kombi ustası</li>
+                            <li>{t('combimasterpage')}</li>
                         </Link>
                         <Link to={'combibrains'}>
-                            <li>Kombi plataları</li>
+                            <li>{t('combibrainspage')}</li>
                         </Link>
                         <Link to={'salesofparts'}>
-                            <li>Ehtiyat hissələrin satışı</li>
+                            <li>{t('salesofdetailspage')}</li>
                         </Link>
                         <Link to={'contactus'}>
-                            <li>Bizimlə Əlaqə</li>
+                            <li>{t('contactuspage')}</li>
                         </Link>
-
                         <select name="language">
                             <option value="Az">Az</option>
-                            <option value="Tr">Tr</option>
-                            <option value="Ru">Ru</option>
-                            <option value="Eng">Eng</option>
+                            <option value="Tr" >Tr</option>
+                            <option value="Ru" >Ru</option>
+                            <option value="En" >En</option>
                         </select>
                     </ul>
                 </div>

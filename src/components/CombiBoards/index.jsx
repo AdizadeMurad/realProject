@@ -1,12 +1,15 @@
+import { useTranslation } from 'react-i18next';
 import './index.scss'
 
+
 function CombiBoards() {
+    const { t } = useTranslation();
     return (
        <>
         <section className='section-combibrains-img'>
         <div className="section-combibrains-head">
             <p className="section-combibrains-text">
-            Kombi plataları
+            {t('combibrains')}
             </p>
         </div>
         </section>
@@ -16,20 +19,12 @@ function CombiBoards() {
                     <div className={"col-7 col-md-7 col-sm-12 col-xs-12"}>
                         <img src={"https://alovservisimages.netlify.app/img/kart1.jpg"} alt={"Image"}/>
                         <h2>
-                            Müxtəlif növ kombi platalarının diaqnostikası,təmiri və bərpası
+                        {t('combibrains_head')}
                         </h2>
                         <h3>
-                            Kombi servisimizin göstərdiyi bir neçə xidmətlərdən biri də kombi plataları haqqındadır.
-                            Servisimizdə hər növ kombi platalarının diaqnostikası mümkündür. Diaqnostika olunduqdan
-                            sonra problemin hansı hissədə baş verdiyi tapılır. Sonra isə problem servisimizin təcrübəli
-                            işçi heyəti tərəfindən təmir edilir və yenidən bərpa olunur.
+                        {t('combibrains_text_1')}
                         </h3>
-                        <h3>Kombinizdə və ya kombi platatasında,bir sözlə gördüyümüz bütün işlər yüksək səviyyədə
-                            aparılır.Həmçinin gördüyümüz bütün işlər üçün müştərilərimizə zəmanat veririk.Kombizində və
-                            ya kombi platalarında hər hansı problemlə qarşılaşsanız tez bir zamanda servisimizlə əlaqə
-                            saxlaya bilərsiniz,servisimiz tərəfindən tezliklə geri dönüş edilir və ən qısa zamanda işçi
-                            heyətimiz ünvanınıza göndərilir.Bütün xidmətlərimizlə müştərilərimizin problemlərin həll
-                            edib, məmnun edirik.</h3>
+                        <h3> {t('combibrains_text_2')}</h3>
                     </div>
                     <div className={"col-5 col-md-5 col-sm-12 col-xs-12"}>
                         <img src={"https://alovservisimages.netlify.app/img/kombi-beyin-tamiri-595x446.jpg.webp"}

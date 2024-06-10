@@ -2,8 +2,10 @@ import './index.scss'
 import {Link} from "react-router-dom";
 import {FaArrowRightLong} from "react-icons/fa6";
 import {FaCalendarAlt, FaUser} from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
 function CombiDetalsWrapper() {
+    const { t } = useTranslation();
     const arr = [{
         title: 'Fan',
         imgUrl: 'https://alovservisimages.netlify.app/img/fan.jpg'
@@ -40,7 +42,7 @@ function CombiDetalsWrapper() {
         <section className='section-detals-img'>
         <div className="section-detals-head">
             <p className="section-detals-text">
-            Ehtiyat hissələr
+           {t('salesofdetails')}
             </p>
         </div>
         </section>
@@ -57,8 +59,7 @@ function CombiDetalsWrapper() {
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
                                     <h3>{elem.title}</h3>
-                                    <h4>Bu tip ehtiyyat hissəsini servisimizə yaxınlaşıb əldə edə bilərsiniz.</h4>
-                                   
+                                    <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
                         </div>
