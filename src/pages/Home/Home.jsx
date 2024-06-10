@@ -13,34 +13,6 @@ function Home() {
     return (
         <>
             <section className="section-home-top">
-                <button
-                    onClick={() => {
-                        i18n.changeLanguage("az");
-                    }}
-                >
-                    az
-                </button>
-                <button
-                    onClick={() => {
-                        i18n.changeLanguage("tr");
-                    }}
-                >
-                    tr
-                </button>
-                <button
-                    onClick={() => {
-                        i18n.changeLanguage("ru");
-                    }}
-                >
-                    ru
-                </button>
-                <button
-                    onClick={() => {
-                        i18n.changeLanguage("en");
-                    }}
-                >
-                    en
-                </button>
                 <div className="section-home-top-general">
                     <div>
                         <p className="alovservishead">ALOV & {t("SERVICE")}</p>
