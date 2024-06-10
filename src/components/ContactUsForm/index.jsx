@@ -2,22 +2,23 @@ import "./index.scss";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoIosMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
 
 function ContactUsForm() {
+  const { t } = useTranslation();
   return (
     <>
       <section className="section-contactus-img">
         <div className="section-contactus-head">
-          <p className="section-contactus-text">Bizimlə Əlaqə</p>
+          <p className="section-contactus-text">{t('contactus')}</p>
         </div>
       </section>
       <section id={"contactUsForm"}>
         <div className={"container"}>
           <div className={"titles"}>
-            <h2>Bizimlə əlaqə</h2>
+            <h2>{t('contactus')}</h2>
             <h3>
-              Bizimlə hərtərəfli əlaqə üçün aşağıdakı əlaqə üsullarından
-              istifadə edə bilərsiniz.
+            {t('contactus-text')}
             </h3>
           </div>
           <div className={"row"}>
@@ -25,49 +26,49 @@ function ContactUsForm() {
               <div className={"square"}>
                 <BsFillTelephoneFill />
               </div>
-              <h4>Suallarınız üçün zəng edin.</h4>
+              <h4>{t('contactus-callnumber')}</h4>
               <a href={"tel:+9940556008483"}>055-600-84-83</a>
             </div>
             <div className={"col-4 col-md-4 col-sm-12 col-xs-12"}>
               <div className={"square"}>
                 <IoIosMail />
               </div>
-              <h4>Gmail vasitəsilə əlaqə üçün.</h4>
+              <h4>{t('contactus-gmail')}</h4>
               <a href={"mailto:info@alovservis.az"}>info@alovservis.az</a>
             </div>
             <div className={"col-4 col-md-4 col-sm-12 col-xs-12"}>
               <div className={"square"}>
                 <FaLocationDot />
               </div>
-              <h4>Servisimizin məkan ünvanı.</h4>
-              <a>Bakı,Xırdalan</a>
+              <h4>{t('contactus-location')}.</h4>
+              <a>{t('contactus-locationtext')}</a>
             </div>
           </div>
           <div className={"row"}>
             <div className={"col-6 col-md-6 col-sm-12 col-xs-12"}>
               <div className={"row"}>
                 <div className={"box col-6 col-md-6 col-sm-12 col-xs-12"}>
-                  <label>Ad</label>
+                  <label>{t('contactus-name')}</label>
                   <input />
                 </div>
                 <div className={"box col-6 col-md-6 col-sm-12 col-xs-12"}>
-                  <label>Soyad</label>
+                  <label>{t('contactus-surname')}</label>
                   <input />
                 </div>
                 <div className={"box col-6 col-md-6 col-sm-12 col-xs-12"}>
-                  <label>Əlaqə nömrəsi</label>
+                  <label>{t('contactus-contactcallnumber')}</label>
                   <input />
                 </div>
                 <div className={"box col-6 col-md-6 col-sm-12 col-xs-12"}>
-                  <label>Email</label>
+                  <label>{t('contactus-contactgmail')}</label>
                   <input />
                 </div>
                 <div className={"box col-12 col-md-12 col-sm-12 col-xs-12"}>
-                  <label>Mesaj</label>
+                  <label>{t('contactus-message')}</label>
                   <textarea rows={4} />
                 </div>
                 <div className={"box col-12 col-md-12 col-sm-12 col-xs-12"}>
-                  <button>Send</button>
+                  <button>{t('contactus-sendbtn')}</button>
                 </div>
               </div>
             </div>

@@ -75,6 +75,20 @@
 "salesofdetails_7":"Turbine",
 "salesofdetails_8":"Stock",
 "salesofdetails_9":"Pressure Sensor",
-"salesofdetails_10":"Rashedelni balloon"
+"salesofdetails_10":"Rashedelni balloon",
+
+
+"contactus": "Contact Us",
+  "contactus-text": "For comprehensive contact with us, you can use the following contact methods.",
+  "contactus-callnumber": "Call for questions. ",
+  "contactus-gmail": "For contact via Gmail.",
+  "contactus-location": "Location address of our service.",
+  "contactus-name": "Name",
+  "contactus-surname": "Surname",
+  "contactus-contactcallnumber": "Contact number",
+  "contactus-contactgmail": "Email",
+  "contactus-message": "Message",
+  "contactus-sendbtn": "Send",
+  "contactus-locationtext": "Baku, Khyrdalan"
 
 }

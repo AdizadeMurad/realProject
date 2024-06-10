@@ -75,6 +75,26 @@
 "salesofdetails_9":"Basınç Sensörü",
 "salesofdetails_10":"Rashedelni balonu",
 
-    "home_title": "Kombi Tamiri ve Yıkama"
+    "home_title": "Kombi Tamiri ve Yıkama",
+
+
+
+
+
+
+
+
+    "contactus": "Bize Ulaşın",
+  "contactus-text": "Bizimle kapsamlı iletişim kurmak için aşağıdaki iletişim yöntemlerini kullanabilirsiniz.",
+  "contactus-callnumber": "Sorularınız için arayın.",
+  "contactus-gmail": "Gmail yoluyla iletişim için.",
+  "contactus-location": "Hizmetimizin konum adresi.",
+  "contactus-name": "Ad",
+  "contactus-soyadı": "Soyadı",
+  "contactus-contactcallnumber": "İletişim numarası",
+  "contactus-contactgmail": "E-posta",
+  "contactus-message": "Mesaj",
+  "contactus-sendbtn": "Gönder",
+  "contactus-locationtext": "Bakü, Khyrdalan"
   }
   

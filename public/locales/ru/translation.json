@@ -74,6 +74,22 @@
 "salesofdetails_9":"Датчик давления",
 "salesofdetails_10":"Расседельный шар",
 
+
+
+"contactus": "Свяжитесь с нами",
+  "contactus-text": "Для всесторонней связи с нами вы можете использовать следующие способы связи.",
+  "contactus-callnumber": "Звоните по вопросам. ",
+  "contactus-gmail": "Для связи через Gmail.",
+  "contactus-location": "Адрес местоположения нашего сервиса.",
+  "contactus-name": "Имя",
+  "contactus-surname": "Фамилия",
+  "contactus-contactcallnumber": "Контактный номер",
+  "contactus-contactgmail": "Электронная почта",
+  "contactus-message": "Сообщение",
+  "contactus-sendbtn": "Отправить",
+"contactus-locationtext": "Баку, Хырдалан",
+
+
     "home_title": "Ремонт и чистка котловı"
   }
   

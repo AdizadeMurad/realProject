@@ -26,7 +26,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Fan</h3>
+                                    <h3>{t('salesofdetails_1')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Mator</h3>
+                                    <h3>{t('salesofdetails_2')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Ana esenjor</h3>
+                                    <h3>{t('salesofdetails_3')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Esenjor</h3>
+                                    <h3>{t('salesofdetails_4')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Şalter</h3>
+                                    <h3>{t('salesofdetails_5')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>NTC</h3>
+                                    <h3>{t('salesofdetails_6')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Türbin</h3>
+                                    <h3>{t('salesofdetails_7')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Ştok</h3>
+                                    <h3>{t('salesofdetails_8')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Təyziq datçiki</h3>
+                                    <h3>{t('salesofdetails_9')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ function CombiDetalsWrapper() {
                                         <FaUser/><span>alovservis.az</span>
                                         <FaCalendarAlt/><span>06.04.2024</span>
                                     </h2>
-                                    <h3>Raşedelni balon</h3>
+                                    <h3>{t('salesofdetails_10')}</h3>
                                     <h4> {t('salesofdetails-dec')}</h4>
                                 </div>
                             </div>
